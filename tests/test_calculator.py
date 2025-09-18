@@ -1,10 +1,9 @@
-""" tests/test_calculator.py """
+
 import sys
 from io import StringIO
 from app.calculator import calculator
 
 
-# Helper function to capture print statements
 def run_calculator_with_input(monkeypatch, inputs):
     """
     Simulates user input and captures output from the calculator REPL.
